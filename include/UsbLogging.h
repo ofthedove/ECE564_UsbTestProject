@@ -1,3 +1,5 @@
+// Author: Andrew Combs (ajcomb01@louisville.edu)
+
 #ifndef USBLOGGING_H
 #define USBLOGGING_H
 

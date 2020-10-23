@@ -1,3 +1,5 @@
+// Author: Andrew Combs (ajcomb01@louisville.edu)
+
 #include <kipr/botball.h>
 
 #include "UsbLogging.h"
