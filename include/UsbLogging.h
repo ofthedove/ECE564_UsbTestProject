@@ -6,6 +6,11 @@
 #include <stdbool.h>
 #include <stdio.h>
 
+// Utility macro for creating a string buffer
+#define STRING_BUFFER(name, length) \
+	char (name ## _buf)[(length) + 1]; \
+    char *(name) = &(name ## _buf)[0];
+
 enum {
     
     UsbLogging_FilePathMaxLength = 40,
